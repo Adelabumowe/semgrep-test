@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 const dbPassword = 'password123';
 const secretKey = 'supersecretkey';
 
-// Insecure database connection
+// Insecure database connectionx2
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
